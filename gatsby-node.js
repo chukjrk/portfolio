@@ -45,14 +45,6 @@ exports.createPages = ({actions, graphql}) => {
     
     return graphql(`
         {
-            allProjectJson {
-                edges {
-                    node {
-                        id
-                    }
-                }
-            }
-
             allMarkdownRemark {
                 edges {
                     node {
@@ -75,20 +67,7 @@ exports.createPages = ({actions, graphql}) => {
         }
     `).then( res => {
         if (res.errors) return Promise.reject(res.errors)
-        const project = res.data.allProjectJson.edges
         const posts = res.data.allMarkdownRemark.edges
-        
-        // Create Project Page
-        project.forEach(({ node }) => {
-            createPage({
-                // path: node.fields.slug,
-                path: `project/${slugify(node.id)}`,
-                component: templates.projectDetails,
-                context: {
-                    id: node.id
-                }
-            })
-        })
 
         // Create Single Blog Page 
         posts.forEach(({ node }) => {

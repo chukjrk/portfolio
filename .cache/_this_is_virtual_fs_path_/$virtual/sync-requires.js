@@ -9,7 +9,6 @@ exports.components = {
   "component---src-template-archive-js": preferDefault(require("/Users/chukwuebukakemdirim/CodeProjects/arlo-albert-walkers/src/template/archive.js")),
   "component---src-template-blog-details-js": preferDefault(require("/Users/chukwuebukakemdirim/CodeProjects/arlo-albert-walkers/src/template/blog-details.js")),
   "component---src-template-category-post-js": preferDefault(require("/Users/chukwuebukakemdirim/CodeProjects/arlo-albert-walkers/src/template/category-post.js")),
-  "component---src-template-project-details-js": preferDefault(require("/Users/chukwuebukakemdirim/CodeProjects/arlo-albert-walkers/src/template/project-details.js")),
   "component---src-template-tag-template-js": preferDefault(require("/Users/chukwuebukakemdirim/CodeProjects/arlo-albert-walkers/src/template/tag-template.js"))
 }
 
