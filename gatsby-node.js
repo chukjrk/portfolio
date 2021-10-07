@@ -42,7 +42,7 @@ exports.createPages = ({actions, graphql}) => {
         tagPost: path.resolve('src/template/tag-template.js'),
         authorPage: path.resolve('src/template/archive.js'),
     }
-
+    
     return graphql(`
         {
             allProjectJson {
@@ -52,7 +52,6 @@ exports.createPages = ({actions, graphql}) => {
                     }
                 }
             }
-
 
             allMarkdownRemark {
                 edges {
@@ -78,9 +77,9 @@ exports.createPages = ({actions, graphql}) => {
         if (res.errors) return Promise.reject(res.errors)
         const project = res.data.allProjectJson.edges
         const posts = res.data.allMarkdownRemark.edges
-
-         // Create Project Page
-         project.forEach(({ node }) => {
+        
+        // Create Project Page
+        project.forEach(({ node }) => {
             createPage({
                 // path: node.fields.slug,
                 path: `project/${slugify(node.id)}`,
