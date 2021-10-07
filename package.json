@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "cj-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "cj portfolio site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "CJ Kemdirim <cjkemdirim@gmail.com>",
   "dependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.0",
@@ -61,11 +61,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "resolutions": {
     "graphql": "^15.4.0",

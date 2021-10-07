@@ -4,10 +4,6 @@
         "path": "/"
     },
     {
-        "title": "features",
-        "path": "#feature-post"
-    },
-    {
         "title": "Work",
         "path": "#projects"
     },

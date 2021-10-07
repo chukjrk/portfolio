@@ -1,5 +1,6 @@
 import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby';
+import Resume from '../../assets/files/CJKemdirim_Resume.pdf'
 
 
 const About = ( ) => {
@@ -27,7 +28,7 @@ const About = ( ) => {
     const linkBUtton = aboutQueryData.homedefaultJson.linkBUtton;
 
     return (
-        <div className="rb-about-area about-style-01 rn-section-gap bg-color-white" id="about">
+        <div className="rb-about-area about-style-01 rn-section-gap bg-color-white" id="home">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -48,8 +49,11 @@ const About = ( ) => {
                                     </ul>
                                 }
                                 <div className="button-group mt--30">
-                                    {downloadButton && <a className="rn-button" href="#downloadbutton"><span>{downloadButton}</span></a>}
-                                    {linkBUtton && <a className="link-button" href="#linkbutton"><span>{linkBUtton}</span></a>}
+                                    {downloadButton && <a className="rn-button" href={Resume} target="_blank">
+                                            <span>{downloadButton}</span>
+                                        </a>
+                                    }
+                                    {linkBUtton && <a className="link-button" href="#contact"><span>{linkBUtton}</span></a>}
                                 </div>
                             </div>
                         </div>
