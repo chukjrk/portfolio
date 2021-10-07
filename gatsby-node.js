@@ -48,7 +48,7 @@ exports.createPages = ({actions, graphql}) => {
             allProjectJson {
                 edges {
                     node {
-                        id: String!
+                        id
                     }
                 }
             }
