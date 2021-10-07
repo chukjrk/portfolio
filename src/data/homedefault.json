@@ -1,0 +1,107 @@
+[
+    {
+        "id": "main-banner",
+        "title": "CJ <span class='color-primary'>Kemdirim</span>",
+        "subtitle": "I'm a Product Manager",
+        "bgImage": "./images/banner/bg-image-02.jpg",
+        "image": "./images/banner/person-image.jpg"
+    },
+
+    {
+        "id": "about",
+        "title": "CJ Kemdirim, Software Engineer transitioning to <span class='color-primary'>Product Management</span>",
+        "description": "Hi! My name is <span class='name-title color-primary'>CJ Kemdirim</span>. I am a Software Engineer making the transition to Product Manaagement. Throughout the time I have spent working at small startups I have taken on many of the resposibilities of a Product Manager acquiring the skills necessary to be successful in the position. I enjoy seeing through the entire life cycle of a product.",
+        "downloadButton": "Resume",
+        "linkBUtton": "Contact Me",
+        "aboutData": [
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Study",
+                "value": "Iowa State University"
+            },
+            {
+                "id": "aboutinfo-4",
+                "iconName": "icon",
+                "label": "Degree",
+                "value": "Aerospace Engineering"
+            },
+            {
+                "id": "aboutinfo-5",
+                "iconName": "icon",
+                "label": "Mail",
+                "value": "cjkemdirim@gmail.com"
+            },
+            {
+                "id": "aboutinfo-6",
+                "iconName": "icon",
+                "label": "Phone",
+                "value": "515 612 2294"
+            }
+        ]
+    },
+
+    {
+        "id": "skill",
+        "title": "In a <span class='theme-color'>short time</span>, I have been able to achieve excellence in all areas of development.",
+        "description": "I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely."
+    },
+    {
+        "id": "portfolio",
+        "title": "Work",
+        "description": ""
+    },
+    {
+        "id": "chooseus",
+        "imagegroup": [
+            {
+                "image": "./images/others/why-1.jpg"
+            },
+            {
+                "image": "./images/others/why-2.jpg"
+            }
+        ]
+        
+    },
+
+    {
+        "id": "skillTwo",
+        "title": "Skills",
+        "description": ""
+    },
+    {
+        "id": "testimonial",
+        "title": "Steve Lehman",
+        "subtitle": "CEO of Hiday Motors.",
+        "description": "We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.",
+        "bgImage": "./images/banner/bg-image-03.jpg"
+    },
+    {
+        "id": "brand",
+        "brandGroup": [
+            {
+                "id": "brand-01",
+                "image": "./images/brand/1.png"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/2.png"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/3.png"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/4.png"
+            }
+        ]
+    },
+    {
+        "id": "contactus",
+        "title": "Get in touch",
+        "subtitle": ""
+        
+    }
+
+]

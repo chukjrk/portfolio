@@ -1,0 +1,38 @@
+[
+    {
+        "id" : "skill-1-1",
+        "number": "",
+        "title": "Leadership",
+        "description": "Lead sprint cycles during product developments"
+    },
+    {
+        "id" : "skill-1-2",
+        "number": "",
+        "title": "Agile Development",
+        "description": "Involved in agile development processes from requirements to roadmapping"
+    },
+    {
+        "id" : "skill-1-3",
+        "number": "",
+        "title": "Systems Management",
+        "description": "Set requirements and roadmaps for enginering systems"
+    },
+    {
+        "id" : "skill-1-4",
+        "number": "3+ years",
+        "title": "ReactJs",
+        "description": ""
+    },
+    {
+        "id" : "skill-1-5",
+        "number": "2+ years",
+        "title": "Python",
+        "description": ""
+    },
+    {
+        "id" : "skill-1-6",
+        "number": "2 years",
+        "title": "SQL",
+        "description": ""
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "home",
+        "path": "/"
+    },
+    {
+        "title": "features",
+        "path": "#feature-post"
+    },
+    {
+        "title": "Work",
+        "path": "#projects"
+    },
+    {
+        "title": "about me",
+        "path": "/about"
+    },
+    {
+        "title": "contact",
+        "path": "/contact-us"
+    }
+]

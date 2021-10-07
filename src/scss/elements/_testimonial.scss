@@ -1,0 +1,67 @@
+/* --------------------
+Testimonial Area  
+------------------------*/
+.testimonial-style-1 {
+    padding: 150px 0;
+    position: relative;
+    z-index: 2;
+    &::before {
+        position: absolute;
+        background: #14131b;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.9;
+    }
+    .inner {
+        position: relative;
+        border: 10px solid #e4810c;
+        padding: 61px 150px;
+        box-sizing: border-box;
+        border-color: rgba(238,238,238,0.2);
+        z-index: 2;
+        @media #{$sm-layout} {
+            padding: 30px 30px;
+        }
+        .content {
+            .icon {
+                position: absolute;
+                left: 70px;
+                font-size: 47px;
+                top: 24px;
+                color: var(--color-primary);
+                @media #{$sm-layout} {
+                    left: 7px;
+                    top: -11px;
+                    z-index: -1;
+                    opacity: 0.3;
+                }
+            }
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0px;
+                font-weight: 300;
+                color: #eee;
+                margin-bottom: 36px;
+            }
+            .title {
+                color: #CCCCCC;
+                margin: 0px;
+                letter-spacing: 0px;
+                font-weight: 300;
+                font-size: 18px;
+                margin-bottom: 6px;
+            }
+            .subtitle {
+                margin: 0px;
+                font-weight: 400;
+                color: var(--color-primary);
+                font-size: 18px;
+            }
+        }
+    }
+}
