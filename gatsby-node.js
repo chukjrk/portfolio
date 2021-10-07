@@ -76,7 +76,6 @@ exports.createPages = ({actions, graphql}) => {
         }
     `).then( res => {
         if (res.errors) return Promise.reject(res.errors)
-        console.log(res.data)
         const project = res.data.allProjectJson.edges
         const posts = res.data.allMarkdownRemark.edges
 
