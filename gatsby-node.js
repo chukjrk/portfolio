@@ -33,23 +33,6 @@ exports.onCreateNode = ({node , actions}) => {
 
 }
 
-exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions
-    const typeDefs = `
-      type allProjectJson implements Node @dontInfer {
-        title: String
-        category: String
-        client: String
-        year: String
-        concept: [String]
-        role: [String]
-        key_takeaways: [String]
-        body: [String]
-      }
-    `
-    createTypes(typeDefs)
-  }
-
 exports.createPages = ({actions, graphql}) => {
     const { createPage } = actions;
     const templates =  {
@@ -63,10 +46,8 @@ exports.createPages = ({actions, graphql}) => {
     return graphql(`
         {
             allProjectJson {
-                edges {
-                    node {
-                        id
-                    }
+                node {
+                    id
                 }
             }
 
