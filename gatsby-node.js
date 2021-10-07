@@ -46,8 +46,10 @@ exports.createPages = ({actions, graphql}) => {
     return graphql(`
         {
             allProjectJson {
-                node {
-                    id
+                edges {
+                    node {
+                        id
+                    }
                 }
             }
 
